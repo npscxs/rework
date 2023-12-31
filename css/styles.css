@@ -111,7 +111,11 @@ button {
 
 .section-title {
 }
-.section-title > .container {
+
+.container-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #2a2a2a;
   background-image: linear-gradient(
       to bottom,
@@ -120,9 +124,10 @@ button {
     ),
     url(/image/people-office.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  padding: 188px 472px 292px;
+  background-size: auto;
+  padding: 188px 472px;
 }
+
 .title {
   color: #fff;
   text-align: center;
@@ -134,15 +139,16 @@ button {
   max-width: 496px;
 }
 .order-bt {
-  margin: 0 auto;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
+  border: none;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 16px 32px;
 }
 
 /* <!-- Section 2 Features --> */
