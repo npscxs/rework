@@ -122,7 +122,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/image/people-office.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   padding: 188px 472px;
